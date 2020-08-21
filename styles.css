@@ -143,7 +143,7 @@ header {
   background:
     linear-gradient(rgba(12, 5, 57, 0.50),
       rgba(12, 5, 57, 0.50)),
-    url("./Resources/imgs/final\ images\ used/header.png");
+    url("./Resources/header.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
@@ -741,7 +741,7 @@ td {
   background:
     linear-gradient(rgba(255, 255, 255, 0.50),
       rgba(255, 255, 255, 0.50)),
-    url("./Resources/imgs/final\ images\ used/117225.jpg");
+    url("./Resources/117225.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: top;
@@ -808,7 +808,7 @@ footer {
   background:
     linear-gradient(rgba(12, 5, 57, 0.50),
       rgba(12, 5, 57, 0.50)),
-    url("./Resources/imgs/final\ images\ used/header.png");
+    url("./Resources/header.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
