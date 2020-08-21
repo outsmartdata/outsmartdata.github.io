@@ -1,0 +1,235 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Outsmart Data</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <link href="./outsmartdatafont.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img src="./Resources/imgs/final images used/Outsmart Data Logo png.png" alt="logo">
+        </div>
+        <div class="nav" id="navbar">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div id="stickyimg">
+            <a href="#" class="active"><img src="./Resources/imgs/final images used/Outsmart Data Logo png.png" alt="logo"></a>
+          </div>
+          <ul id="navlinks">
+            <a id="home" href="#">
+              <li>Home</li>
+            </a>
+            <a href="#services">
+              <li>Services</li>
+            </a>
+            <a href="#about">
+              <li>About</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="mobileHeader()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="main">
+
+      <div class="mission">
+        <h1><strong>Data is Inevitable.</strong> Ugly data is a choice. Discover Insights. Create Stories. <strong>Be the Hero.</strong></h1>
+      </div>
+
+      <div class="services">
+        <div class="servicesheader">
+          <h1 id="services">Services</h1>
+        </div>
+        <div class="offer">
+          <div class="classes">
+            <h2 onclick="classFunction()">Classes & Workshops</h2>
+            <div id="class-arrow-down"></div>
+          </div>
+          <div class="coach">
+            <h2 onclick="coachFunction()">Coaching & Office Hours</h2>
+            <div id="coach-arrow-down"></div>
+          </div>
+          <div class="consulting">
+            <h2 onclick="consultFunction()">Consulting</h2>
+            <div id="consult-arrow-down"></div>
+          </div>
+        </div>
+        <div class="description">
+          <div id="classes">
+            <p>Intensive classes and workshops covering topics in data exploration, analysis, visualization, and storytelling using tools such as Excel, SQL, Tableau, and Alteryx.</p>
+            <a href="https://outsmartdata.eventbrite.com">Upcoming workshops with OutSmart Data</a>
+            <a href="https://generalassemb.ly/instructors/brett-kemp/22695">Upcoming General Assembly classes</a>
+          </div>
+          <img id="classimg" src="./Resources/imgs/final images used/class.png">
+          <div id="coach">
+            <p>One-on-one sessions to help you quickly solve challenges, learn new skills, answer questions, or prepare for certification exams.</p>
+            <a href="https://www.eventbrite.com/e/outsmart-data-coaching-and-office-hours-tickets-110514156818">Click here to book office hours</a>
+          </div>
+          <img id="coachimg" src="./Resources/imgs/final images used/coaching.png">
+          <div id="consulting">
+            <p>Data analytics consulting with a specialization in Tableau and Alteryx development, implementation, and enablement.</p>
+            <a href="#contact">Learn more</a>
+          </div>
+          <img id="consultimg" src="./Resources/imgs/final images used/consulting.png">
+        </div>
+      </div>
+
+      <!--
+        <div class="testimonials">
+            <h1>Testimonials</h1>
+                <div class="slides">
+                    <div class="slide1">
+                        <p>Brett was great! He was very patient which I appreciated because some of us asked the same question multiple times throughout the course and it was nice of him to go back and explain each time.</p>
+                    </div>
+                    <div class="slide2">
+                        <p>Brett was fantastic! I wanted to do something more complex with my final project, and he took the time to individually teach me how to do it in Tableau</p>
+                    </div>
+                    <div class="slide3">
+                        <p>Brett was fantastic and his passion for data analytics showed through the course. He always made himself available, whether after class or online, for any issues or questions we had. Thank you for your dedication and help!</p>
+                    </div>
+                </div>
+        </div>
+-->
+
+
+      <div class="about">
+        <h1 id="about">About</h1>
+        <div class="aboutcontent">
+          <div class="toprow">
+            <div class="headshot">
+              <img src="./Resources/imgs/final images used/headshot.jfif">
+            </div>
+            <div class="brett">
+              <p class="regularabout">Brett Kemp, founder of OutSmart Data, spends his time at the intersection of business intelligence and analytics.</p>
+              <p class="regularabout">Helping to solve complex questions and problems for companies such as Hilton Worldwide, Choice Hotels International, and The Walt Disney Company,
+                Brett is an expert at delivering actionable insights with industry leading data analytics tools such as: </p>
+              <p class="aboutmobile"> Learn to solve complex questions and problem with industry leading data analytics tools such as: </p>
+              <table>
+                <tr>
+                  <td><img class="hex" src="./Resources/imgs/final images used/about.png"></td>
+                  <td class="type">Tableau</td>
+                </tr>
+                <tr>
+                  <td><img class="hex" src="./Resources/imgs/final images used/about.png"></td>
+                  <td class="type">Alteryx</td>
+                </tr>
+                <tr>
+                  <td><img class="hex" src="./Resources/imgs/final images used/about.png"></td>
+                  <td class="type">MicroStrategy</td>
+                </tr>
+                <tr>
+                  <td><img class="hex" src="./Resources/imgs/final images used/about.png"></td>
+                  <td class="type">SQL</td>
+                </tr>
+                <tr>
+                  <td><img class="hex" src="./Resources/imgs/final images used/about.png"></td>
+                  <td class="type">Excel/VBA</td>
+                </tr>
+              </table>
+
+              <p>Join Brett as he walks you through how you too can be a <strong>Data Hero</strong>.</p>
+            </div>
+          </div>
+          <div class="bottomrow">
+            <div class="icons">
+              <img class="alteryx" src="./Resources/imgs/final images used/Certification-advanced-2019.png">
+              <img class="innovator" src="Resources/imgs/final images used/Advocacy_Tiers_Innovator-01.png">
+              <img class="ga" src="Resources/imgs/final images used/GA_Cog_Large_Red_RGB.png">
+              <img class="cpd" src="Resources/imgs/final images used/TableauCPBadge.PNG">
+              <img class="cad" src="Resources/imgs/final images used/TableauCADBadge.PNG">
+              <img class="cas" src="./Resources/imgs/final images used/TableauCASBadge.PNG">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="contact" id="contact">
+        <H1>Ready to become a <strong>Data Hero?</strong></H1>
+        <h4>Reach out with any questions about upcoming classes, workshops, consluting availability, or just to say hi!</h4>
+        <div class="googleform">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScxHvdurSycMvVwP6xJBC_lrzhrF7ZytrirQjdcvHDdgV_qMg/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <!-- 
+            <div class="container">
+                <div class="row1">
+                    <div class="first">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="">
+                    </div>
+            <div class="last">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="">
+            </div>
+            <div class="email">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" placeholder="">
+            </div>
+            </div>
+            <div class="row2">
+                <div class="checkbox">
+                <label for="learn">I want to learn more about...</label>
+                <div class="btn">
+                    <input type="checkbox" value="dataanalytics">Data Analytics</input>
+                </div>
+                <div class="btn">
+                    <input type="checkbox" value="tableau">Tableau</input>
+                </div>
+                <div class="btn">
+                    <input type="checkbox" value="Alteryx">Alteryx</input>
+                </div>
+                <div class="btn">
+                    <input type="checkbox" value="consulting">Consulting</input>
+                </div>
+                </div>
+                <div class="notes">
+                <label for="other">Other notes</label>
+                <textarea id="other" name="other" placeholder="" style="height:200px"></textarea>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    
+  </form>
+            </div>
+
+        </div>
+    -->
+
+
+
+      <script src="./osd.js"></script>
+  </body>
+        <footer>
+          <div class="footer">
+            <div class="copy">
+              <h5>copyright 2020</h5>
+            </div>
+            <!--<div class="terms">
+              <h5>Terms & Conditions</h5>
+              <h5>Privacy Policy</h5>
+            </div>-->
+          </div>
+      </div>
+      </footer>
+</html>
+
+<!--Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
