@@ -402,7 +402,6 @@ ul a:hover {
 /* Mission Statement */
 
 .mission h1 {
-  font-family: 'Octarine Light';
   font-size: 3.5vw;
   text-align: center;
   width: 45%;
@@ -412,7 +411,6 @@ ul a:hover {
 
 .mission h1 strong {
   color: #f23d4a;
-  font-family: 'Octarine';
   font-weight: bolder;
 }
 
@@ -639,7 +637,6 @@ ul a:hover {
 
 .brett strong {
   color: #f23d4a;
-  font-family: 'Octarine';
   font-weight: bolder;
 }
 
@@ -759,7 +756,6 @@ td {
 
 .contact h1 strong {
   color: #f23d4a;
-  font-family: 'Octarine';
   font-weight: bolder;
 }
 
