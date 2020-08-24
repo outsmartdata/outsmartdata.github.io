@@ -760,6 +760,15 @@ td {
   }
 }
 
+
+@media screen and (max-width: 770px) {
+  .about{
+    padding: 1.5rem;
+    font-size: 6vw;
+  }
+}
+
+
 @media screen and (max-width: 690px) {
   .bottomrow {
     display: none;
