@@ -607,11 +607,14 @@ ul a:hover {
   .classes h2:hover, .coach h2:hover, .consulting h2:hover{
     font-size: 4.25vw;
   }
-  
+
   .description p, .description a{
     font-size: 3vw;
     padding: 1rem;
     width: auto;
+  }
+  .offer{
+    margin: auto 2vw;
   }
 }
 
