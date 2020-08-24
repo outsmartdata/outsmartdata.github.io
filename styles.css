@@ -770,7 +770,6 @@ td {
 
 @media screen and (max-width: 770px) {
   .about{
-    padding: 1.5rem;
     font-size: 6vw;
   }
 }
