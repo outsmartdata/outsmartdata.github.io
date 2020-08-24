@@ -373,7 +373,7 @@ ul a:hover {
     align-items: flex-start;
     position: absolute;
     width: 150px;
-    padding: 25px 100px 25px 25px;
+    padding: 2vw 10vw 2vw 2vw;
     margin-left: 1100%;
 
     background: #ededed;
@@ -389,7 +389,7 @@ ul a:hover {
 
   #navlinks li {
     padding: 10px 0;
-    font-size: 22px;
+    font-size: 4vw;
   }
 
   /*
@@ -744,6 +744,12 @@ td {
   }
   .brett p{
     text-indent: 0;
+  }
+  td{
+    padding: 1.5vw;
+  }
+  table{
+    font-size: 3.5vw;
   }
 }
 
