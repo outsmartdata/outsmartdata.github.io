@@ -765,8 +765,8 @@ td {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  font-size: 4vw;
+  width: 50%;
+  font-size: 5vw;
 }
 
 .contact h1 strong {
@@ -780,7 +780,7 @@ td {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  font-size: 1.5vw;
+  font-size: 3vw;
   font-weight: lighter;
 }
 
@@ -804,13 +804,14 @@ td {
 @media screen and (max-width: 550px) {
   .contact {
     background-image: none;
-    background-color: #efeeee;
+    background-color: white;
   }
 
   .contact h1 {
     margin-top: 32px;
     padding-top: 32px;
   }
+  
 }
 
 /* Footer */
@@ -861,6 +862,6 @@ footer {
   .copy {
     justify-content: center;
     margin: 0 auto;
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
