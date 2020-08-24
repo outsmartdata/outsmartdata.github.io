@@ -419,7 +419,8 @@ ul a:hover {
 
 @media screen and (max-width: 999px) {
   .mission h1{
-    width: 50%
+    width: 50%;
+    font-size: 4vw;
   }
 
 }
@@ -433,18 +434,18 @@ ul a:hover {
 }
 
 .services h1 {
-  font-size: 4vw;
+  font-size: 5vw;
   font-weight: bold;
   padding: 2vw;
 }
 
 .services h2 {
-  font-size: 1.75vw;
+  font-size: 3vw;
   font-weight: bold;
   color: #efeeee;
   border-radius: 20px;
   padding: 1vw;
-  height: 3.125vw;
+  height: 6vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -531,9 +532,9 @@ ul a:hover {
 }
 
 .description p {
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   padding: 2vw;
-  width: 50%;
+  width: 75%;
   margin-left: 0;
 }
 
@@ -557,14 +558,14 @@ ul a:hover {
 }
 
 .description a {
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   text-decoration: none;
   padding: 2vw;
 }
 
 .description a:hover {
   cursor: pointer;
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: bolder;
 }
 
@@ -584,7 +585,7 @@ ul a:hover {
 /*About*/
 
 .about {
-  font-size: 4vw;
+  font-size: 5vw;
   text-align: center;
   font-weight: bold;
   margin: 7% auto;
@@ -610,9 +611,9 @@ ul a:hover {
 }
 
 .toprow p {
-  font-size: 1.5vw;
+  font-size: 3vw;
   font-weight: lighter;
-  padding: 15px;
+  padding: 1.5vw;
 }
 
 .headshot {
@@ -654,7 +655,7 @@ ul a:hover {
 
 table {
   height: 25%;
-  font-size: 1.5vw;
+  font-size: 3vw;
   font-weight: lighter;
   width: auto;
 }
@@ -722,21 +723,27 @@ td {
     height: auto;
 
   }
-}
 
-@media screen and (max-width: 690px) {
   .toprow {
-    height: 250px;
+    height: auto;
   }
-
+  .toprow p{
+    font-size: 4vw;
+  }
   .headshot {
     display: none;
   }
-
+  .aboutcontent{
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
   .brett {
     width: 95%;
     margin: 1vw 0;
     border: none;
+  }
+  .brett p{
+    text-indent: 0;
   }
 }
 
