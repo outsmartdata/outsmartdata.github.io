@@ -769,7 +769,7 @@ td {
 
 
 @media screen and (max-width: 770px) {
-  .about{
+  .about h1{
     font-size: 6vw;
   }
 }
@@ -792,6 +792,8 @@ td {
 
   .toprow {
     height: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
   }
   .toprow p{
     font-size: 4vw;
