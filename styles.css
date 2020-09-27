@@ -613,6 +613,11 @@ ul a:hover {
     padding: 1rem;
     width: auto;
   }
+
+  .description a:hover {
+    font-size: 3.5vw;
+    font-weight: bolder;
+  }
   .offer{
     margin: auto 2vw;
   }
@@ -632,6 +637,12 @@ ul a:hover {
     font-size: 4vw;
     text-align: center;
   }
+
+  .description a:hover {
+    font-size: 4.5vw;
+    font-weight: bolder;
+  }
+
 }
 
 /*About*/
