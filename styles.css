@@ -668,8 +668,6 @@ ul a:hover {
 .toprow {
   width: 95%;
   height: auto;
-  display: flex;
-  justify-content: center;
   margin: auto;
 }
 
@@ -680,22 +678,17 @@ ul a:hover {
   height: auto;
 }
 
-.headshot {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-}
-
 .headshot img {
   border: 5px solid #c2d3da;
   border-radius: 100%;
-  width: auto;
   height: auto;
-  max-width: 100%;
+  width: 25%;
+  min-width: 215px;
   display: flex;
   justify-content: center;
   align-items: center;
+  float: left;
+  margin: 2rem;
 }
 
 .brett {
@@ -710,7 +703,7 @@ ul a:hover {
   
 }
 
-.brett strong {
+.center strong {
   color: #f23d4a;
   font-weight: bolder;
 }
@@ -725,6 +718,7 @@ table {
   font-weight: lighter;
   width: auto;
   height: auto;
+  margin: auto;
 }
 
 td {
@@ -741,22 +735,32 @@ td {
   width: auto;
 }
 
-.bottomrow {
-  margin-bottom: 50px;
+.center{
+  text-align: center;
 }
 
-.icons {
+.bottomrow {
+  margin-bottom: 50px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+}
+
+
+.icons {
+  display: inline-flex;
   border: 5px solid #C4D5DB;
   border-radius: 20px;
   padding: 24px;
+  flex-wrap: wrap;
+  width: 95%;
+  justify-content: space-evenly;
 }
 
 .icons img {
-  width: 8.5%;
+  width: 10%;
   height: auto;
+  min-width: 85px;
+  margin: 1rem;
 }
 
 .cpd,
@@ -773,9 +777,10 @@ td {
   .toprow {
     height: auto;
   }
-  .icons{
+  .icons img{
     padding: 1rem;
   }
+
 }
 
 
@@ -783,52 +788,25 @@ td {
   .about h1{
     font-size: 6vw;
   }
+
 }
 
+@media screen and (max-width: 585px) {
+  .headshot img{
+    float: none;
+    margin: 1rem auto;
+    min-width: 175px;
+  }
+  .icons img{
+    margin: auto;
+  }
+}
 
-@media screen and (max-width: 690px) {
-  .bottomrow {
-    display: none;
-  }
-
-  .headshot {
-    justify-content: flex-start;
-  }
-
-  .headshot img {
-    width: 75%;
-    height: auto;
-
-  }
-
-  .toprow {
-    height: auto;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-  }
-  .toprow p{
-    font-size: 4vw;
-  }
-  .headshot {
-    display: none;
-  }
-  .aboutcontent{
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-  .brett {
-    width: 95%;
-    margin: 1vw 0;
-    border: none;
-  }
-  .brett p{
-    text-indent: 0;
-  }
-  td{
-    padding: 1.5vw;
-  }
-  table{
-    font-size: 3.5vw;
+@media screen and (max-width: 355px) {
+  .icons img{
+    padding: .5rem;
+    min-width: 70px;
+  
   }
 }
 
