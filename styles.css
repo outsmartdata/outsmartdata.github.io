@@ -799,14 +799,8 @@ td {
   }
   .icons img{
     margin: auto;
-  }
-}
-
-@media screen and (max-width: 355px) {
-  .icons img{
     padding: .5rem;
     min-width: 70px;
-  
   }
 }
 
