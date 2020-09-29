@@ -798,15 +798,9 @@ td {
     margin: 1rem auto;
     min-width: 175px;
   }
-  .icons img{
-    margin: auto;
-    padding: .5rem;
-  }
-
-  .icons{
-    padding: 1rem;
-  }
-
+.bottomrow{
+  display: none;
+}
 }
 
 /*Contact us */
