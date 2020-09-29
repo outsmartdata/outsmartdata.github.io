@@ -754,6 +754,7 @@ td {
   flex-wrap: wrap;
   width: 95%;
   justify-content: space-evenly;
+  height: auto;
 }
 
 .icons img {
@@ -800,7 +801,14 @@ td {
   .icons img{
     margin: auto;
     padding: .5rem;
-    min-width: 70px;
+  }
+
+  .icons{
+    padding: 1rem;
+    height: auto;
+  }
+  .bottomrow{
+    height: auto;
   }
 }
 
