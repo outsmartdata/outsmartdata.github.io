@@ -662,7 +662,6 @@ ul a:hover {
   border-top: 5px solid #456473;
   border-bottom: 5px solid #456473;
   text-indent: 50px;
-  text-align: justify;
 }
 
 .toprow {
@@ -761,6 +760,7 @@ td {
   width: 10%;
   height: auto;
   min-width: 85px;
+  min-height: 86px;
   margin: 1rem;
 }
 
@@ -789,7 +789,12 @@ td {
   .about h1{
     font-size: 6vw;
   }
-
+  .about p{
+    font-size: 3vw;
+  }
+  table{
+    font-size: 2.75vw;
+  }
 }
 
 @media screen and (max-width: 585px) {
@@ -800,6 +805,16 @@ td {
   }
 .bottomrow{
   display: none;
+}
+.center{
+  padding: 1rem;
+  text-align: left;
+}
+.about p{
+  font-size: 4vw;
+}
+table{
+  font-size: 3.75vw;
 }
 }
 
