@@ -1030,13 +1030,13 @@ button[type="submit"]{
   #other{
     height: 30vh;
   }
-}
-
-@media screen and (max-width: 320px){
   .first, .last, .email{
     width: 95%;
     padding: .5rem
   }
+}
+
+@media screen and (max-width: 320px){
   .checkbox label{
     text-align: center;
     padding: 0;
