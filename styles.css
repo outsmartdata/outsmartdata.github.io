@@ -872,6 +872,12 @@ table{
 
 .container2{
   display:none;
+  text-align: center;
+}
+
+.container2 p{
+  font-weight: normal;
+  font-size: .75rem;
 }
 
 .row1, .row2{

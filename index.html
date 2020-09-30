@@ -207,7 +207,7 @@
   
             </div>
         <div class="container2" id="container2">
-          <h2>Thank you for your submission!</h2>
+          <h2>Thank you for reaching out!</h2>
           <p>I'll be in touch within 3 business days</p>
         </div>
 
@@ -225,7 +225,7 @@
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {console.log('Success!', response);
             document.getElementById("container1").style.display = "none";
-            document.getElementById("container2").style.display="flex"
+            document.getElementById("container2").style.display="block"
             })
             .catch(error => console.error('Error!', error.message))
         })
