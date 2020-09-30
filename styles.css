@@ -859,6 +859,7 @@ table{
 #other{
   height: 90%;
   width: 90%;
+  max-height: 275px;
 }
 
 .row3{
