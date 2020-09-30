@@ -334,9 +334,6 @@ ul a:hover {
     height: 100px;
   }
 
-  #home {
-    display: flex;
-  }
 }
 
 @media screen and (max-width:420px) {
@@ -605,7 +602,8 @@ ul a:hover {
   padding-right: 25px;
   border-top: 5px solid #456473;
   border-bottom: 5px solid #456473;
-  text-indent: 50px;
+  text-align: center;
+  line-height: 1.75rem;
 }
 
 .toprow {
@@ -634,25 +632,9 @@ ul a:hover {
   margin: 2rem;
 }
 
-.brett {
-  border: 5px solid #C4D5DB;
-  border-radius: 20px;
-  width: 50%;
-  height: auto;
-  margin-left: auto;
-  margin-right: 0;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  
-}
-
 .center strong {
   color: #f23d4a;
   font-weight: bolder;
-}
-
-.brett p {
-  line-height: 1.2em;
 }
 
 table {
@@ -758,6 +740,7 @@ td {
 }
 .about p{
   font-size: 4vw;
+  text-align: center;
 }
 table{
   font-size: 3.75vw;
@@ -817,11 +800,6 @@ table{
 .container2{
   display:none;
   text-align: center;
-}
-
-.container2 p{
-  font-weight: normal;
-  font-size: .75rem;
 }
 
 .row1, .row2{
