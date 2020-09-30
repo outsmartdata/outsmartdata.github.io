@@ -20,6 +20,12 @@ window.onscroll = function() {
     }
   }
   
+//mobile navbar
+
+$("#toggle").click(function() {
+    $(this).toggleClass('expanded').siblings('div').slideToggle();
+  });
+
   
   //Services drop down
   
