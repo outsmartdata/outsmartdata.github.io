@@ -161,61 +161,69 @@
       <div class="contact" id="contact">
         <H1>Ready to become a <strong>Data Hero?</strong></H1>
         <h4>Reach out with any questions about upcoming classes, workshops, consulting availability, or just to say hi!</h4>
-        <div class="googleform">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScxHvdurSycMvVwP6xJBC_lrzhrF7ZytrirQjdcvHDdgV_qMg/viewform?embedded=true" >Loading…</iframe>
-        </div>
-        <!-- 
-            <div class="container">
+            <div class="container" >
+              <form name="submit-to-google-sheet">
                 <div class="row1">
                     <div class="first">
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="">
+                <input type="text" id="fname" name="firstname" placeholder="" required>
                     </div>
             <div class="last">
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="">
+                <input type="text" id="lname" name="lastname" placeholder="" required>
             </div>
             <div class="email">
                 <label for="email">Email Address</label>
-                <input type="text" id="email" name="email" placeholder="">
+                <input type="text" id="email" name="email" placeholder="" required>
             </div>
             </div>
             <div class="row2">
                 <div class="checkbox">
                 <label for="learn">I want to learn more about...</label>
                 <div class="btn">
-                    <input type="checkbox" value="dataanalytics">Data Analytics</input>
+                    <input type="checkbox" value="dataanalytics" name="dataanalytics">Data Analytics</input>
                 </div>
                 <div class="btn">
-                    <input type="checkbox" value="tableau">Tableau</input>
+                    <input type="checkbox" value="tableau" name="tableau">Tableau</input>
                 </div>
                 <div class="btn">
-                    <input type="checkbox" value="Alteryx">Alteryx</input>
+                    <input type="checkbox" value="Alteryx" name="alteryx">Alteryx</input>
                 </div>
                 <div class="btn">
-                    <input type="checkbox" value="consulting">Consulting</input>
+                    <input type="checkbox" value="consulting" name="consulting">Consulting</input>
                 </div>
                 </div>
                 <div class="notes">
                 <label for="other">Other notes</label>
-                <textarea id="other" name="other" placeholder="" style="height:200px"></textarea>
+                <textarea id="other" name="other" placeholder=""></textarea>
             </div>
         </div>
         <div class="row3">
             <div class="submit">
-                <input type="submit" value="Submit">
+                <button type="submit" value="Submit">Submit</button>
             </div>
         </div>
+      </form>
     
   </form>
             </div>
 
         </div>
-    -->
   </div>
 
 
       <script src="./osd.js"></script>
+      <script>
+      scriptURL = 'https://script.google.com/macros/s/AKfycbzH9w1kj1sw7wCnq2yp58Pw_uI8YuoVClO3cK4ef55-5WmzbsGs/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> 
   </body>
         <footer>
           <div class="footer">

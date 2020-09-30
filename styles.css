@@ -780,6 +780,8 @@ td {
   }
   .icons img{
     padding: 1rem;
+    width: 85px;
+    height: 86px;
   }
 
 }
@@ -855,20 +857,88 @@ table{
   font-weight: lighter;
 }
 
+.container{
+  background-color: #456473;
+  color: #c4d5db;
+  width: 75%;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  border-radius: 20px;
+}
 
-.googleform {
+.row1, .row2{
   display: flex;
-  align-content: center;
-  justify-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.row2{
+  width: 100%
+}
+
+.checkbox{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.btn{
+  padding: .25rem;
+}
+
+.checkbox label{
+  text-align: center;
+}
+
+.notes{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 32px;
+  align-items: center;
+  width: 50%;
 }
 
-iframe{
-  width: 640px;
-  height: 1000px;
+.first, .last, .email{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
 }
 
+.row1 input[type="text"], .row2 input[type="checkbox"], .row2 textarea{
+  border-radius: 20px;
+  background-color: #c4d5db;
+  padding: .5rem;
+}
+
+.btn input[type="checkbox"]{
+  border-radius: 100%;
+}
+
+#other{
+  height: 90%;
+  width: 90%;
+}
+
+.row3{
+  display: flex;
+  justify-content: center;
+}
+
+button[type="submit"]{
+  background-color: #c4d5db;
+  color: #456573;
+  font-family: 'Octarine', sans-serif;
+  font-weight: bold;
+  padding: .5rem 1rem;
+  font-size: 1.125rem;
+  border-radius: 20px;
+}
 
 @media screen and (max-width: 800px) {
   .contact {
@@ -900,11 +970,6 @@ iframe{
   
 }
 
-@media screen and (max-width: 400px) {
- iframe{
-   height: 1100px;
- }
-}
 
 /* Footer */
 
