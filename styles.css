@@ -137,6 +137,10 @@ html {
   color: #456473;
 }
 
+body{
+  overflow: hidden;
+}
+
 /* Header and Nav Bar */
 
 header {
