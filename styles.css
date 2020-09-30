@@ -857,7 +857,7 @@ table{
   font-weight: lighter;
 }
 
-.container{
+.container, .container2{
   background-color: #456473;
   color: #c4d5db;
   width: 75%;
@@ -868,6 +868,10 @@ table{
   letter-spacing: 1px;
   line-height: 1.5rem;
   border-radius: 20px;
+}
+
+.container2{
+  display:none;
 }
 
 .row1, .row2{
@@ -957,9 +961,13 @@ button[type="submit"]{
 }
 
 @media screen and (max-width: 640px){
-  .container{
+  .container, .container2{
     width: 90%;
     border-radius: 0;
+  }
+
+  .container2{
+    display:none;
   }
   .row1{
     justify-content: center;

@@ -161,7 +161,7 @@
       <div class="contact" id="contact">
         <H1>Ready to become a <strong>Data Hero?</strong></H1>
         <h4>Reach out with any questions about upcoming classes, workshops, consulting availability, or just to say hi!</h4>
-            <div class="container" >
+            <div class="container" id="container1">
               <form name="submit-to-google-sheet">
                 <div class="row1">
                     <div class="first">
@@ -204,9 +204,12 @@
             </div>
         </div>
       </form>
-    
-  </form>
+  
             </div>
+        <div class="container2" id="container2">
+          <h2>Thank you for your submission!</h2>
+          <p>I'll be in touch within 3 business days</p>
+        </div>
 
         </div>
   </div>
@@ -220,7 +223,10 @@
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
+            .then(response => {console.log('Success!', response);
+            document.getElementById("container1").style.display = "none";
+            document.getElementById("container2").style.display="flex"
+            })
             .catch(error => console.error('Error!', error.message))
         })
       </script> 
