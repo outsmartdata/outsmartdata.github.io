@@ -958,7 +958,7 @@ button[type="submit"]{
 
 @media screen and (max-width: 640px){
   .container{
-    width: 100%;
+    width: 90%;
     border-radius: 0;
   }
   .row1{
