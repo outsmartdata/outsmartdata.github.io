@@ -1,9 +1,39 @@
+@font-face {
+  font-family: 'Octarine Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Octarine-Light.otf') format('opentype');
+  }
+  
+  
+  @font-face {
+  font-family: 'Octarine Light Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Octarine-LightOblique.otf') format('opentype');
+  }
+  
+  
+  @font-face {
+  font-family: 'Octarine Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Octarine-Bold.otf') format('opentype');
+  }
+  
+  
+  @font-face {
+  font-family: 'Octarine Bold Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Octarine-BoldOblique.otf') format('opentype');
+  }
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Octarine Bold', sans-serif;
 }
 
 a {
