@@ -7,7 +7,9 @@ export default function Header() {
     return (
         <header>
             <div className={styles.header}>
-                <Image src={logo} alt="Outsmart Data" className={styles.logo}/>
+                <div className={styles.logo_container}>
+                <img src='/images/OutsmartDataLogo.svg' alt="Outsmart Data" className={styles.logo}/>
+                </div>
             </div>
         </header>
                     )
